@@ -1,4 +1,4 @@
 # TeachingControlApp
 Sample android app with crud SQLite database and firebase login
 
-![Settings Window](https://www.medicalcenter.virginia.edu/mobile-device-setup/colorsAndroidlogo.jpg/image)
+![Settings Window](https://directus.improvein.com/improvein/storage/uploads/00000000001.png)
