@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/logo_w_h"
+        android:layout_height="@dimen/logo_w_h"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:contentDescription=""
+        android:src="@drawable/goal"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Teaching Control App"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/manageStudents"
+        style="?android:textAppearanceSmall"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="manageStudents"
+        android:text="Manage Students"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/toThink"
+        style="?android:textAppearanceSmall"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="courseInformations"
+        android:text="Courses Information"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <fragment
+        android:id="@+id/resume_fragment"
+        android:name="com.teachingcontrolapp.fragment.ResumeFragment"
+        android:layout_width="218dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="5dp"
+        tools:layout="@layout/fragment_resume" />
+
+
+
+</LinearLayout>

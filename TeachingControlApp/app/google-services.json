@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "248177453653",
+    "firebase_url": "https://teaching-control-app.firebaseio.com",
+    "project_id": "teaching-control-app",
+    "storage_bucket": "teaching-control-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248177453653:android:255b66da0d26d069",
+        "android_client_info": {
+          "package_name": "com.teachingcontrolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248177453653-fdopj3tff4jkfrheoonnjs42rnm8ulja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teachingcontrolapp",
+            "certificate_hash": "f0e24b7846facfb95059989962b0373cdb79543e"
+          }
+        },
+        {
+          "client_id": "248177453653-uv88of6ufb1sro7h0loqciigcq2o7rmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIs_tuvJ5QlMKY47vWNizKxIdL16Xdd6U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248177453653-uv88of6ufb1sro7h0loqciigcq2o7rmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
